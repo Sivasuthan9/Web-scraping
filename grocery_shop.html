@@ -19,36 +19,18 @@
             margin: 15px;
             border-radius: 8px;
          }
-         #card-apple {
-            background-color: #ffe4e1;
-            color: #8b0000;
-         }
-         #card-banana {
-            background-color: #fffacd;
-            color: #b8860b;
-         }
-         #card-carrot {
-            background-color: #fdf5e6;
-            color: #cd5c5c;
-         }
-         #card-milk {
-            background-color: #e6f7ff;
-            color: #4682b4;
-         }
-         #card-rice {
-            background-color: #f5fffa;
-            color: #228b22;
-         }
-         .card-header {
-            font-weight: bold;
-         }
-         .btn-primary {
-            background-color: #4a90e2;
-            border: none;
-         }
-         .btn-primary:hover {
-            background-color: #357ab8;
-         }
+         #card-apple { background-color: #ffe4e1; color: #8b0000; }
+         #card-banana { background-color: #fffacd; color: #b8860b; }
+         #card-carrot { background-color: #fdf5e6; color: #cd5c5c; }
+         #card-milk { background-color: #e6f7ff; color: #4682b4; }
+         #card-rice { background-color: #f5fffa; color: #228b22; }
+         #card-orange { background-color: #ffefd5; color: #d2691e; }
+         #card-potato { background-color: #fff0f5; color: #8b4513; }
+         #card-spinach { background-color: #e0ffe0; color: #006400; }
+         #card-tomato { background-color: #ffe4b5; color: #b22222; }
+         #card-grapes { background-color: #f5f5f5; color: #800080; }
+         .btn-primary { background-color: #4a90e2; border: none; }
+         .btn-primary:hover { background-color: #357ab8; }
       </style>
    </head>
    <body>
@@ -58,7 +40,7 @@
             <div class="col-md-4">
                <div class="card" id="card-apple">
                   <div class="card-header">
-                     <strong>Apple</strong>
+                     <strong>Apple</strong> <span class="text-muted">(Fruit)</span>
                   </div>
                   <div class="card-body">
                      <p class="card-text">Fresh and juicy apples, perfect for a healthy snack.</p>
@@ -69,7 +51,7 @@
             <div class="col-md-4">
                <div class="card" id="card-banana">
                   <div class="card-header">
-                     <strong>Banana</strong>
+                     <strong>Banana</strong> <span class="text-muted">(Fruit)</span>
                   </div>
                   <div class="card-body">
                      <p class="card-text">Ripe bananas full of nutrients and energy.</p>
@@ -80,7 +62,7 @@
             <div class="col-md-4">
                <div class="card" id="card-carrot">
                   <div class="card-header">
-                     <strong>Carrot</strong>
+                     <strong>Carrot</strong> <span class="text-muted">(Vegetable)</span>
                   </div>
                   <div class="card-body">
                      <p class="card-text">Crunchy carrots, great for salads and cooking.</p>
@@ -89,23 +71,56 @@
                </div>
             </div>
             <div class="col-md-4">
-               <div class="card" id="card-milk">
+               <div class="card" id="card-orange">
                   <div class="card-header">
-                     <strong>Milk</strong>
+                     <strong>Orange</strong> <span class="text-muted">(Fruit)</span>
                   </div>
                   <div class="card-body">
-                     <p class="card-text">Fresh dairy milk for a wholesome diet.</p>
-                     <a href="#" class="btn btn-primary">Buy for $1.2/liter</a>
+                     <p class="card-text">Sweet and tangy oranges for a boost of vitamin C.</p>
+                     <a href="#" class="btn btn-primary">Buy for $2.5/kg</a>
                   </div>
                </div>
             </div>
             <div class="col-md-4">
-               <div class="card" id="card-rice">
+               <div class="card" id="card-potato">
                   <div class="card-header">
-                     <strong>Rice</strong>
+                     <strong>Potato</strong> <span class="text-muted">(Vegetable)</span>
                   </div>
                   <div class="card-body">
-                     <p class="card-text">Premium quality rice for daily meals.</p>
+                     <p class="card-text">Versatile potatoes for a variety of dishes.</p>
+                     <a href="#" class="btn btn-primary">Buy for $1.8/kg</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card" id="card-spinach">
+                  <div class="card-header">
+                     <strong>Spinach</strong> <span class="text-muted">(Vegetable)</span>
+                  </div>
+                  <div class="card-body">
+                     <p class="card-text">Fresh spinach, perfect for salads and smoothies.</p>
+                     <a href="#" class="btn btn-primary">Buy for $2/bunch</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card" id="card-tomato">
+                  <div class="card-header">
+                     <strong>Tomato</strong> <span class="text-muted">(Vegetable)</span>
+                  </div>
+                  <div class="card-body">
+                     <p class="card-text">Juicy tomatoes, ideal for sauces and salads.</p>
+                     <a href="#" class="btn btn-primary">Buy for $1.5/kg</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card" id="card-grapes">
+                  <div class="card-header">
+                     <strong>Grapes</strong> <span class="text-muted">(Fruit)</span>
+                  </div>
+                  <div class="card-body">
+                     <p class="card-text">Sweet and refreshing grapes, perfect for snacking.</p>
                      <a href="#" class="btn btn-primary">Buy for $3/kg</a>
                   </div>
                </div>
